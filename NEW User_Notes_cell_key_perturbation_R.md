@@ -34,13 +34,13 @@ always perturbed in the same way.
 
 ### Terminology
 
-- Record key -- A random number assigned to each record 
-- Cell value -- The number of records or frequency for a cell
-- Cell key -- The sum of record keys for a given cell
-- pvalue -- perturbation value. The value of noise added to cells, e.g. +1, -1
-- pcv -- perturbation cell value. This is an amended cell value needed to merge 
+- Record key - A random number assigned to each record 
+- Cell value - The number of records or frequency for a cell
+- Cell key - The sum of record keys for a given cell
+- pvalue - perturbation value. The value of noise added to cells, e.g. +1, -1
+- pcv - perturbation cell value. This is an amended cell value needed to merge 
 on the ptable
-- ptable -- perturbation table. The look-up file containing the pvalues, this 
+- ptable - perturbation table. The look-up file containing the pvalues, this 
 determines which cells get perturbed and by how much.
 
 
