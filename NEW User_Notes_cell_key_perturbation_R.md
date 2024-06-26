@@ -253,8 +253,8 @@ contingency table is published.
 ### Example (Synthetic) Data
 
 An example data set and ptable are included in the method package: 
-- micro -- randomly generated data with record keys in the range 0-255
-- ptable_10_5 -- ptable which applies the 10_5 rule with record keys in 
+- micro - randomly generated data with record keys in the range 0-255
+- ptable_10_5 - ptable which applies the 10_5 rule with record keys in 
 range 0-255
 
 These can be viewed using:
