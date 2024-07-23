@@ -1,0 +1,23 @@
+name: Build pre-release
+
+on:
+  release:
+    types: [prereleased]
+
+jobs:
+  build-pub:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.6.15"
+      - name: Install flit
+        run: >-
+          python3 -m
+          pip install flit --user
+      - name: Build a wheel and source tarball
+        run: >-
+          python3 -m flit build
