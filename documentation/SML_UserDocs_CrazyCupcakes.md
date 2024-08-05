@@ -7,12 +7,12 @@
 
  | Descriptive      | Details                         |
  |:---              | :----                           |
- | Support Area     | Statistical Disclosure Control  | 
- | Method Theme     | Statistical Disclosure Control  |
- | Status           | Ready to Use  |
- | Inputs           | data, record_key, geog, tab_vars, ptable, threshold |
- | Outputs          | frequency table with cell key perturbation applied |
- | Method Version   | 2.0.0                              |
+ | Support Area     | Baking                          | 
+ | Method Theme     | Baking                          |
+ | Status           | Ready to Use                    |
+ | Inputs           | flour, sugar, butter, eggs      |
+ | Outputs          | cake                            |
+ | Method Version   | 1.0.0                           |
 
 ### Summary
 
