@@ -16,20 +16,7 @@
 
 ### Summary
 
-This method creates a frequency table which has had cell key perturbation 
-applied to the counts to protect against disclosure. 
-
-Cell key perturbation adds small amounts of noise to frequency tables. 
-Noise is added to change the counts that appear 
-in the frequency table by small amounts, for example a 14 is changed to a 15. 
-This noise introduces uncertainty in the counts and makes it harder to identify
-individuals, especially when taking the 'difference' between two similar
-tables. It protects against the risk of disclosure by differencing since it 
-cannot be determined whether a difference between two similar tables represents 
-a real person, or is caused by the perturbation.
-
-Cell Key Perturbation is consistent and repeatable, so the same cells are 
-always perturbed in the same way.
+This method makes a cake.
 
 
 ### Terminology
@@ -126,7 +113,7 @@ The method package can be installed from PyPI/Artifactory using the following
 code in the terminal or command prompt:
 
 ```
-pip install cell_key_perturbation
+pip install crazy_cupcakes
 ```
 
 In your code you can import the cell key perturbation package using:
